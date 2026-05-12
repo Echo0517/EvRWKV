@@ -5,8 +5,8 @@
 [**IEEE TCSVT 2026**]
 
 <div>
-    <a href="#">
-        <img src="https://doi.org/10.1109/TCSVT.2026.3672491" alt="Paper">
+    <a href="https://doi.org/10.1109/TCSVT.2026.3672491" target="_blank">
+        <img src="https://img.shields.io/badge/Paper-TCSVT_2026-blue?style=flat-square" alt="Paper">
     </a>
     <a href="https://opensource.org/licenses/MIT" target="_blank">
         <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License">
