@@ -1,0 +1,11 @@
+torch>=2.0.0
+torchvision
+lightning>=2.0.0
+numpy
+einops
+pyyaml
+easydict
+absl-py
+tensorboard
+pudb
+pyiqa
