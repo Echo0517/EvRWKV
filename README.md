@@ -26,27 +26,6 @@
 - **[2026.05]** 🚀 The core training code, testing pipeline, custom CUDA operators, and network architecture are now open-source.
 
 
-## :file_folder: Dataset Preparation
-
-### Download Datasets
-
-**SDE:**
-- Baidu Pan: 
-- Google Drive: 
-
-**SDSD:**
-- Baidu Pan: 
-- Google Drive: 
-
-**RELED:**
-- Baidu Pan: 
-- Google Drive: 
-
-**LIE:**
-- Baidu Pan: 
-- Google Drive: 
----
-
 ## :computer: Usage
 
 ### 1. Dependencies & Installation
@@ -69,8 +48,9 @@ pip install -r requirements.txt
 
 Checkpoints:
 
-Baidu Pan: 
-Google Drive: 
+Baidu Pan: https://pan.baidu.com/s/1ffRmUuk0RmEib__un3LQPA (47mk)
+
+Google Drive: https://drive.google.com/drive/folders/1MqIRHHmTUin7XjU79YtPZS7whgeuBq8U?usp=sharing
 
 *(Note: Pretrained weights will be uploaded soon.)*
 
