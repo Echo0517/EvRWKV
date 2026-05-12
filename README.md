@@ -6,7 +6,7 @@
 
 <div>
     <a href="#">
-        <img src="https://img.shields.io/badge/Paper-TCSVT_2026-blue?style=flat-square" alt="Paper">
+        <img src="https://doi.org/10.1109/TCSVT.2026.3672491" alt="Paper">
     </a>
     <a href="https://opensource.org/licenses/MIT" target="_blank">
         <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License">
@@ -30,11 +30,6 @@
 ## :bulb: Introduction
 
 **EvRWKV** proposes a novel event-guided low-light image enhancement framework. By leveraging the linear complexity and powerful spatial modeling capabilities of the RWKV architecture, we design a "continuous interactive" mechanism. This approach deeply fuses the static details of RGB images with the high dynamic range (HDR) and high temporal resolution characteristics of event cameras, achieving efficient and high-quality restoration of low-light scenes.
-
-### Core Features:
-- **Continuous Interactive Mechanism**: Achieves dynamic alignment and complementation of cross-modal features through a carefully designed Spatial Mix layer.
-- **OmniShift Reparameterization**: Utilizes a multi-branch structure during training to capture multi-scale features, which collapses into a single-layer convolution during inference for optimal speed.
-- **Custom CUDA Operator**: Features low-level optimization for WKV computations, supporting large-scale parallel processing of high-resolution images.
 
 ---
 
@@ -87,15 +82,12 @@ conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvi
 pip install -r requirements.txt
 ```
 
-> :warning: **CUDA Operator Instructions**: 
-> This project uses a custom WKV CUDA operator located in the `egllie/models/cuda/` directory. The code will perform just-in-time (JIT) compilation using `torch.utils.cpp_extension.load` during runtime. Please ensure that `nvcc` is installed and properly configured in your system's environment variables.
-
 ### 2. Pretrained Models
 
-| Dataset | Metrics (PSNR / SSIM / NIQE) | Baidu Netdisk | OneDrive |
-| :--- | :---: | :---: | :---: |
-| **SDSD Indoor** | --.-- / --.-- / --.-- | [Link](#) (pwd: `xxxx`) | [Link](#) |
-| **SDSD Outdoor**| --.-- / --.-- / --.-- | [Link](#) (pwd: `xxxx`) | [Link](#) |
+Checkpoints:
+
+Baidu Pan: 
+Google Drive: 
 
 *(Note: Pretrained weights will be uploaded soon.)*
 
@@ -127,7 +119,7 @@ If this work is helpful for your research, please consider citing:
 ```bibtex
 @article{cai2026evrwkv,
   title={EvRWKV: A Continuous Interactive RWKV Framework for Effective Event-Guided Low-Light Image Enhancement},
-  author={Cai, Wenjie and others},
+  author={Cai, Wenjie and Meng, Qingguo and Wang, Zhenyu and Dong, Xingbo and Jin, Zhe},
   journal={IEEE Transactions on Circuits and Systems for Video Technology},
   year={2026},
   publisher={IEEE}
@@ -136,7 +128,8 @@ If this work is helpful for your research, please consider citing:
 
 ## :heart: Acknowledgment
 
-This project is built upon the foundational concepts of the [RWKV](https://github.com/BlinkDL/RWKV-LM) architecture. We extend our sincere gratitude to the open-source community and the authors of related works for their valuable contributions.
+We thank the authors of [Restore-RWKV](https://github.com/Yaziwel/Restore-RWKV) and EvLight(https://github.com/EthanLiang99/EvLight) for their open-source contributions.
+
 
 ## :email: Contact
 If you have any questions, feel free to open an issue or contact:
