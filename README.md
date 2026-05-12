@@ -46,13 +46,12 @@ pip install -r requirements.txt
 
 ### 2. Pretrained Models
 
-Checkpoints:
+We provide the pre-trained checkpoints for quick evaluation. You can download them from the following links:
 
-Baidu Pan: https://pan.baidu.com/s/1ffRmUuk0RmEib__un3LQPA (47mk)
+| Dataset / Model | Google Drive | Baidu Netdisk |
+| :--- | :---: | :---: |
+| **EvRWKV Checkpoints** | [Google Drive Link](https://drive.google.com/drive/folders/1MqIRHHmTUin7XjU79YtPZS7whgeuBq8U?usp=sharing) | [Baidu Pan Link](https://pan.baidu.com/s/1ffRmUuk0RmEib__un3LQPA) (pwd: `47mk`) |
 
-Google Drive: https://drive.google.com/drive/folders/1MqIRHHmTUin7XjU79YtPZS7whgeuBq8U?usp=sharing
-
-*(Note: Pretrained weights will be uploaded soon.)*
 
 ### 3. Training
 Navigate to the core directory and run the training script:
