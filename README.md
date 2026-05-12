@@ -25,6 +25,17 @@
 - **[2026.05]** :tada: Our paper **"EvRWKV"** has been officially accepted by **IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)**!
 - **[2026.05]** 🚀 The core training code, testing pipeline, custom CUDA operators, and network architecture are now open-source.
 
+---
+
+## :bulb: Introduction
+
+**EvRWKV** proposes a novel event-guided low-light image enhancement framework. By leveraging the linear complexity and powerful spatial modeling capabilities of the RWKV architecture, we design a "continuous interactive" mechanism. This approach deeply fuses the static details of RGB images with the high dynamic range (HDR) and high temporal resolution characteristics of event cameras, achieving efficient and high-quality restoration of low-light scenes.
+
+<div align="center">
+  <img src="assets/EvRWKV.png" width="90%">
+</div>
+
+---
 
 ## :computer: Usage
 
