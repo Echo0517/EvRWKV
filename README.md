@@ -25,42 +25,26 @@
 - **[2026.05]** :tada: Our paper **"EvRWKV"** has been officially accepted by **IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)**!
 - **[2026.05]** 🚀 The core training code, testing pipeline, custom CUDA operators, and network architecture are now open-source.
 
----
-
-## :bulb: Introduction
-
-**EvRWKV** proposes a novel event-guided low-light image enhancement framework. By leveraging the linear complexity and powerful spatial modeling capabilities of the RWKV architecture, we design a "continuous interactive" mechanism. This approach deeply fuses the static details of RGB images with the high dynamic range (HDR) and high temporal resolution characteristics of event cameras, achieving efficient and high-quality restoration of low-light scenes.
-
----
 
 ## :file_folder: Dataset Preparation
 
-Please organize your dataset according to the following structure (using the SDSD dataset as an example). Before training, remember to update the `DATASET_ROOT` path in your YAML configuration files under the `egllie/options/` folder.
+### Download Datasets
 
-<details>
-<summary><b>Click to view SDSD Directory Structure</b></summary>
+**SDE:**
+- Baidu Pan: 
+- Google Drive: 
 
-```text
---indoor/outdoor 
-├── test 
-│   └── pair1 
-│       ├── low 
-│       │   ├── xxx.png (low-light RGB frame) 
-│       │   ├── xxx.npz (split low-light event streams) 
-│       │   └── lowligt_event.npz (the whole low-light event stream) 
-│       └── normal 
-│           └── xxx.png (normal-light RGB frame) 
-└── train 
-    └── pair1 
-        ├── low 
-        │   ├── xxx.png (low-light RGB frame) 
-        │   ├── xxx.npz (split low-light event streams) 
-        │   └── lowligt_event.npz (the whole low-light event stream) 
-        └── normal 
-            └── xxx.png (normal-light RGB frame) 
-```
-</details>
+**SDSD:**
+- Baidu Pan: 
+- Google Drive: 
 
+**RELED:**
+- Baidu Pan: 
+- Google Drive: 
+
+**LIE:**
+- Baidu Pan: 
+- Google Drive: 
 ---
 
 ## :computer: Usage
@@ -69,7 +53,6 @@ Please organize your dataset according to the following structure (using the SDS
 
 Clone the repository and set up the Conda environment:
 ```bash
-git clone [https://github.com/](https://github.com/)[Your_GitHub_Username]/EvRWKV.git
 cd EvRWKV
 
 conda create -n evrwkv python=3.9
@@ -128,7 +111,7 @@ If this work is helpful for your research, please consider citing:
 
 ## :heart: Acknowledgment
 
-We thank the authors of [Restore-RWKV](https://github.com/Yaziwel/Restore-RWKV) and EvLight(https://github.com/EthanLiang99/EvLight) for their open-source contributions.
+We thank the authors of [Restore-RWKV](https://github.com/Yaziwel/Restore-RWKV) and [EvLight](https://github.com/EthanLiang99/EvLight) for their open-source contributions.
 
 
 ## :email: Contact
