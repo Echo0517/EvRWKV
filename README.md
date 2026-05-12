@@ -6,13 +6,13 @@
 
 <div>
     <a href="https://doi.org/10.1109/TCSVT.2026.3672491" target="_blank">
-        <img src="https://img.shields.io/badge/Paper-TCSVT_2026-blue?style=flat-square" alt="Paper">
+        <img src="https://img.shields.io/badge/Paper-IEEE_TCSVT-red?style=flat-square" alt="Paper">
     </a>
-    <a href="https://opensource.org/licenses/MIT" target="_blank">
-        <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License">
+    <a href="https://github.com/Echo0517/EvRWKV" target="_blank">
+        <img src="https://img.shields.io/badge/Project-Page-blue?style=flat-square" alt="Project Page">
     </a>
-    <a href="https://pytorch.org/" target="_blank">
-        <img src="https://img.shields.io/badge/PyTorch-2.0%2B-orange?style=flat-square" alt="PyTorch">
+    <a href="https://github.com/Echo0517/EvRWKV" target="_blank">
+        <img src="https://img.shields.io/github/stars/Echo0517/EvRWKV?style=social" alt="GitHub Stars">
     </a>
 </div>
 
